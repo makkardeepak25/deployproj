@@ -26,7 +26,7 @@ export function Foot() {
         <Header>Careers</Header>
       </NavLink>
       <br />
-      <NavLink activeStyle={{ color: "green" }} to={"/men"}>
+      <NavLink activeStyle={{ color: "green" }} to={"/faq"}>
         <Header>FAQ</Header>
       </NavLink>
       <br />
