@@ -12,6 +12,7 @@ const Nav = styled.div`
   position: fixed;
   top: 0%;
   width: 100%;
+  z-index:100;
 `;
 const Header = styled.h3`
   margin: 15px;
