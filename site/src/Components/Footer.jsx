@@ -10,6 +10,7 @@ const Footer = styled.div`
   padding: 10px;
   font-size: 20px;
   width: 100%;
+  margin-top:100px;
 `;
 const Header = styled.h3`
   margin: 15px;
@@ -26,7 +27,7 @@ export function Foot() {
         <Header>Careers</Header>
       </NavLink>
       <br />
-      <NavLink activeStyle={{ color: "green" }} to={"/men"}>
+      <NavLink activeStyle={{ color: "green" }} to={"/faq"}>
         <Header>FAQ</Header>
       </NavLink>
       <br />
