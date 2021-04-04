@@ -7,17 +7,20 @@ import { Women } from "./Women";
 import { Route, Switch } from "react-router-dom";
 import { Home } from "./Home";
 import { Openings } from "./Openings";
+import { ProductPage } from "./ProductPage";
+
 import { Sales } from "./Sales";
 import { Faq } from "./Faq";
 import { NavBar } from "../Components/Navbar";
 import { Banner } from "./../Components/MidBanner";
 import { Foot } from "./../Components/Footer";
+import { NotFound } from "./NotFound";
 export function Routes() {
   return (
     <div>
-      <NavBar />
       <Switch>
-        <Route exact path={"/"}>
+        <Route path={"/home"} >
+
           <Home />
         </Route>
         <Route path={"/men"}>
@@ -44,9 +47,17 @@ export function Routes() {
         <Route path={"/openings"}>
           <Openings />
         </Route>
+        <Route path="/product/:id">
+            <ProductPage/>
+        </Route>
+        <Route>
+            <NotFound/>
+        </Route>
       </Switch>
-      <Banner />
+      <br/>
       <Foot />
+
+      
     </div>
   );
 }

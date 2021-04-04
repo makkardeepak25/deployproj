@@ -10,6 +10,7 @@ const Footer = styled.div`
   padding: 10px;
   font-size: 20px;
   width: 100%;
+  margin-top:100px;
 `;
 const Header = styled.h3`
   margin: 15px;

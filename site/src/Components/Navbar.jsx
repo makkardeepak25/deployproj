@@ -46,7 +46,7 @@ const Button = styled.button`
 export function NavBar() {
   return (
     <Nav style={{ display: "flex" }}>
-      <NavLink activeStyle={{ color: "green" }} to={"/"}>
+      <NavLink activeStyle={{ color: "green" }} to={"/home"}>
         <Header>Home</Header>
       </NavLink>
       <br />
