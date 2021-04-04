@@ -19,7 +19,7 @@ export function Routes() {
   return (
     <div>
       <Switch>
-        <Route path={"/home"} >
+        <Route exact path={"/"} >
 
           <Home />
         </Route>
